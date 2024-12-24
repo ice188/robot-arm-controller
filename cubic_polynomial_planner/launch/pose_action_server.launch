@@ -1,0 +1,5 @@
+<launch>
+
+	<node name="planner_server" pkg="cubic_polynomial_planner" type="server" output="screen"/>
+    
+</launch>

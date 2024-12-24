@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>highlevel_msgs</name>
+  <version>0.1.0</version>
+  <description>assignment 2</description>
+  <maintainer email="ziqi.chu@mail.mcgill.ca">Alice Chu</maintainer>
+  <license>BSD</license>
+
+  <depend>actionlib_msgs</depend>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+ 	
+</package>
+
+

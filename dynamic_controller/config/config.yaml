@@ -1,0 +1,5 @@
+damping: 3
+stiffness: 3
+potential_field_constant: 5
+a: 10
+b: 100

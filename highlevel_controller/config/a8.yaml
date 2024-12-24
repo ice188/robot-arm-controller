@@ -1,0 +1,46 @@
+action_list:
+
+  number_of_targets: 7
+
+  action_0:
+    action_type: pose    
+    translation: [0.35, 0.0, 0.6]
+    orientation: [0.0, 0.0, 0.0]
+    duration: 3.0
+     
+  action_1:
+    action_type: gripper    
+    position: 0.45
+    effort: 1.0
+    duration: 1.0
+     
+  action_2:
+    action_type: pose
+    translation: [0.35, 0.0, 0.45]
+    orientation: [0.0, 0.0, 0.0]
+    duration: 1.0
+
+  action_3:
+    action_type: gripper
+    position: 0.65
+    effort: 20.0
+    duration: 1.0
+
+  action_4:
+    action_type: pose
+    translation: [0.35, 0.0, 0.44]
+    orientation: [0.0, 0.0, 0.0]
+    duration: 1.0
+
+  action_5:
+    action_type: pose    
+    translation: [ 0.4435, 0.098596, 0.67]
+    orientation: [ 0.0, 0.0, 0.0]
+    duration: 3.0
+
+  action_6:
+    action_type: gripper
+    position: 0.45
+    effort: 1.0
+    duration: 1.0
+

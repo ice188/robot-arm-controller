@@ -1,0 +1,8 @@
+<launch>
+
+	<node name="task_controller" pkg="kinematic_controller" type="inverse_kinematic_controller" output="screen"/>
+    
+    <rosparam command="load"
+	file="$(find kinematic_controller)/config/config.yaml" />
+</launch>
+

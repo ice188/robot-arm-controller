@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>base_controller</name>
+  <version>0.1.0</version>
+  <description>ROS package to convert desired twist into speed of heading and steering</description>
+
+  <maintainer email="ziqi.chu@mail.mcgill.ca">Alice Chu</maintainer>
+  <license>BSD</license>
+  <author email="ziqi.chu@mail.mcgill.ca">Alice Chu</author>
+  
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>eigen3</depend>
+  <depend>roscpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf_geometry_msgs</depend>
+
+</package>

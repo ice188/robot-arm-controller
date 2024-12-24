@@ -1,0 +1,7 @@
+<launch>
+
+    <node name="joint_controller" pkg="kinematic_controller" type="joint_kinematic_controller" output="screen"/>
+    <rosparam command="load"
+	file="$(find kinematic_controller)/config/config.yaml" />
+</launch>
+

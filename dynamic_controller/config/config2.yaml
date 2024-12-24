@@ -1,0 +1,15 @@
+# planner
+stopping_tolerance: 0.05
+# x_ddot
+damping: 3
+stiffness: 60
+
+
+# redundancy
+redundancy: true
+damping0: 10
+stiffness0: 100
+k0: 100
+
+
+

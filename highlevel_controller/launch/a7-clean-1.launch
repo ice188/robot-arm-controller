@@ -1,0 +1,10 @@
+<launch>
+
+    <rosparam command="load"
+	file="$(find highlevel_controller)/config/a7-clean-1.yaml" />
+
+	<include file="$(find highlevel_controller)/launch/a7.launch" >
+    </include>
+	 
+    
+</launch>

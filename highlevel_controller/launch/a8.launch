@@ -1,0 +1,15 @@
+<launch>
+
+    <include file="$(find kortex_gazebo)/launch/gen3_kin_with_gripper.launch" >
+        <arg name="world_name" value="$(find kortex_description)/worlds/a8.world"/>
+    </include>
+
+	 <rosparam command="load"
+	file="$(find highlevel_controller)/config/a8.yaml" />
+    
+    
+
+    <node name="gripper_client" pkg="highlevel_controller" type="gripper_client" output="screen"/>
+    <node name="planner_server" pkg="cubic_polynomial_planner" type="server" output="screen"/>
+    
+</launch>

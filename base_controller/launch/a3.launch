@@ -1,0 +1,7 @@
+<launch>
+
+	<node name="planner" pkg="potential_field_planner" type="pfp_node" output="screen"/>
+    <node name="controller" pkg="base_controller" type="bc_node" output="screen"/>
+    
+</launch>
+

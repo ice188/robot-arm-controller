@@ -1,0 +1,4 @@
+<launch>
+	<node name="node1" pkg="keyboard_controller" type="exb" output="screen"/>
+</launch>
+

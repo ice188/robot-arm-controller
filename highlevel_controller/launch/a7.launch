@@ -1,0 +1,8 @@
+<launch>
+
+
+	<node name="client" pkg="highlevel_controller" type="client" output="screen"/>
+	<node name="planner_server" pkg="cubic_polynomial_planner" type="server" output="screen"/>
+	
+    
+</launch>

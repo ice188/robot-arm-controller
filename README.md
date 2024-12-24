@@ -1,2 +1,2 @@
-# robot-arm-controller
-ROS packages using C++ to control robot pose and joint movements
+## Pick-and-Place Demo Video
+[video link](https://youtu.be/wSsawMHZa0U)

@@ -1,0 +1,7 @@
+<launch>
+
+	<node name="task_planner" pkg="dynamic_controller" type="pose_planner" output="screen"/>
+    <node name="task_controller" pkg="dynamic_controller" type="pose_controller" output="screen"/>
+    <rosparam command="load"
+	file="$(find dynamic_controller)/config/config2.yaml" />
+</launch>

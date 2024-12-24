@@ -1,0 +1,13 @@
+# joint planner
+joint_k: 30
+/intg_constant: 30
+
+#task planner: 
+/potential_constant: 5
+
+# task controller
+/redundancy: true
+/intg_constant2: 30
+/redundancy_constant: 5
+/normalize: false
+
